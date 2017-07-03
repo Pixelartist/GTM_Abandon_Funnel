@@ -1,4 +1,4 @@
-<script>
+< script >
   (function() {
     window.addEventListener('beforeunload', function() {
       if ((qhistory.length) && (qgate <= 16)) {
@@ -7,7 +7,9 @@
           'qeventCategory': 'debug',
           'qeventAction': qhistory.join(' > ')
         });
+
       }
     });
+
   })();
 </script>
