@@ -1,4 +1,3 @@
-
 //test da shit
 function(){
 
@@ -6,7 +5,7 @@ function(){
   qgate = parseInt({{dataLayer.questionnaire.stepView.id}});
   console.log('data stepview id - ' + qgate);
   console.log(typeof qgate);
-  // && (qhistory !== null)
+
   if ((typeof qhistory !== "undefined") )
   {
     console.log('qhistory already defined');
